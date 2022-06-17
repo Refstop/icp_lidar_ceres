@@ -215,11 +215,7 @@ MatrixXd icp_lidar_ceres::icp_non_linear(const MatrixXd& reference_points, const
         delete [] p_points;
         delete [] q_points;
     }
-<<<<<<< HEAD
-    // cout << x_tf << endl;
-=======
-    // cout << x_tf << endl; 
->>>>>>> 195aa0a5b724d3048a295952aee208145ce022a7
+    
     if(verbose) {
         cout << x_tf*Vector3d(points(0,0), points(1,0), 1) << endl;
         cout << reference_points.block<2,1>(0,0) << endl;
