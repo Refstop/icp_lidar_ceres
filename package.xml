@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+
+    <name>icp_lidar_ceres</name>
+    <version>1.0.0</version>
+    <description>
+        The icp_lidar_ceres package
+    </description>
+
+    <license>BSD</license>
+
+    <author     email="bhbhchoi@gmail.com">Refstop</author>
+    <maintainer email="bhbhchoi@gmail.com">Refstop</maintainer>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <export />
+
+</package>
